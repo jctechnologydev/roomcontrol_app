@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_menu_curricular_unit"
+        android:icon="@drawable/curricular_unit"
+        android:title="Unidades Curriculares"
+        android:textSize = "18sp"/>
+    <item
+        android:id="@+id/nav_menu_map_icon"
+        android:icon="@drawable/ic_map"
+        android:title="Mapa"
+        android:textSize = "18sp"
+        />
+
+    <item
+        android:id="@+id/nav_menu_logout_icon"
+        android:icon="@drawable/ic_logout"
+        android:title="Logout"
+        android:textSize = "18sp"/>
+
+</menu>

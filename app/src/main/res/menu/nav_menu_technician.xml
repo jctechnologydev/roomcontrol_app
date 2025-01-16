@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/nav_menu_maintenance"
+        android:icon="@drawable/ic_settings"
+
+        android:textSize="18sp"
+        android:title="Manutenção" />
+    <item
+        android:id="@+id/nav_menu_map_icon"
+        android:icon="@drawable/ic_map"
+        android:title="Mapa"
+        android:textSize = "18sp"
+        />
+
+    <item
+        android:id="@+id/nav_menu_logout_icon"
+        android:icon="@drawable/ic_logout"
+        android:title="Logout"
+        android:textSize = "18sp"/>
+
+</menu>

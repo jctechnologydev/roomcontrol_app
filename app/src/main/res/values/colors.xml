@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0F4F33</color>
+    <color name="colorSecondary">#037B4A</color>
+    <color name="colorTitle">#052F5F</color>
+    <color name="colorIcon">#037B4A</color>
+    <color name="colorBackground">#FFFFFF</color>
+    <color name="stateRed">#DD2323</color>
+    <color name="stateGreen">#289D25</color>
+    <color name="stateMiddle">#C19010</color>
+    <color name="colorBackgroundCard">#EFEFEF</color>
+    <color name="colorText">#000</color>
+
+    <color name="colorTextCardInfo">#7C7C7C</color>
+</resources>

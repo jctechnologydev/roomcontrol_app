@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/add_sensor_til_name"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_margin="@dimen/margin"
+        android:layout_marginBottom="@dimen/margin"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/edit_text_input_spinner">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/text_input_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="none"
+            android:hint="Nome"
+            android:textColor="@color/colorSecondary"
+            android:textSize="@dimen/text_minmax" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/edit_text_input_spinner"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_margin="@dimen/margin"
+        app:layout_constraintTop_toBottomOf="@id/add_sensor_til_name"
+        app:layout_constraintBottom_toTopOf="@id/ll_minmax"
+        android:layout_marginBottom="64dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+
+        <AutoCompleteTextView
+            android:id="@+id/auto_complete_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:entries="@android:array/emailAddressTypes"
+            android:spinnerMode="dropdown"
+            android:textColor="@color/colorText"
+            android:hint="Tipo"
+            android:textSize="20sp"
+            />
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_minmax"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_margin="@dimen/margin"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@id/edit_text_input_spinner"
+        app:layout_constraintBottom_toTopOf="@id/button_add"
+        android:layout_marginBottom="@dimen/margin"
+        android:layout_marginStart="@dimen/margin"
+        android:layout_marginEnd="@dimen/margin">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/edit_text_input_edit_text_min_sensor_value"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_weight="1"
+            android:layout_marginEnd="@dimen/margin_small"
+            android:layout_width="match_parent"
+            android:layout_height="64dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/text_input_min"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Mínimo"
+                android:textColor="@color/colorSecondary"
+                android:textSize="@dimen/text_minmax"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/edit_text_input_edit_text_max_sensor_value"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_marginStart="@dimen/margin_small"
+            android:layout_weight="1"
+            android:layout_height="64dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/text_input_max"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Máximo"
+                android:textColor="@color/colorSecondary"
+                android:textSize="@dimen/text_minmax" />
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_add"
+        android:layout_width="131dp"
+        android:layout_height="65dp"
+        android:layout_marginBottom="64dp"
+        android:text="@string/adicionar"
+        android:textColor="@color/colorBackground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

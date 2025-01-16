@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">SmartRooms</string>
+    <string name="title_activity_side_menu">SideMenuActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="powered_by">Powered by:</string>
+    <string name="nome_empresa">RJ2 - Software Engineering</string>
+    <string name="login">Iniciar Sessão</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="invalid_email">Email inválido</string>
+    <string name="invalid_password">Password inválida</string>
+    <string name="turned_on">Ligada</string>
+    <string name="turned_off">Desligada</string>
+    <string name="adicionar">Adicionar</string>
+    <string name="guardar">Guardar</string>
+    <string name="aviso">Aviso!</string>
+    <string name="alert_message">Tem a certeza que deseja apagar?</string>
+    <string name="temperatura_media">Temperatura Média</string>
+    <string name="temperatura_maxima">Temperatura Máxima</string>
+    <string name="temperatura_minima">Temperatura Mínima</string>
+    <string name="yes">Sim</string>
+    <string name="no">Não</string>
+    <string name="no_sensors">Sem sensores para apresentar</string>
+    <string name="no_actuators">Sem atuadores para apresentar</string>
+    <string name="sem_salas">Sem salas!</string>
+
+    <string-array name="hardware_type">
+        <item>Luminosidade</item>
+        <item>Temperatura</item>
+        <item>Humidade</item>
+        <item>Ruído</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin">16dp</dimen>
+    <dimen name="margin_cardView_temperatures">32dp</dimen>
+
+    <dimen name="radius">16dp</dimen>
+    <dimen name="text_description">8sp</dimen>
+    <dimen name="text_minmax">20sp</dimen>
+
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding">16dp</dimen>
+
+    <dimen name="icon_size">24dp</dimen>
+
+
+    <dimen name="text_size">10sp</dimen>
+    <dimen name="text_size_med">24sp</dimen>
+    <dimen name="text_size_big">32sp</dimen>
+</resources>

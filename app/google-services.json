@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "903626010699",
+    "project_id": "smartrooms-372021",
+    "storage_bucket": "smartrooms-372021.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:903626010699:android:f090abac13d3e941e4ddce",
+        "android_client_info": {
+          "package_name": "pt.ipca.smartrooms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "903626010699-rriqus8smkmc03ggcgtdr1cnsftci71d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9mnKCdpTE-IWf4XbjuQigAq-2f_L5MfY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "903626010699-rriqus8smkmc03ggcgtdr1cnsftci71d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
