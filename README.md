@@ -29,10 +29,21 @@ The **SmartRooms** project combines the concept of Smart Cities with a bidirecti
 
 ## Screenshots
 
-- ![Home Screen](path/to/home_screen_image.png)  
-- ![Room Monitoring Screen](path/to/room_monitoring_image.png)  
-- ![Control Panel](path/to/control_panel_image.png)
+|                         |                        |
+|----------------------------------------|----------------------------------------|
+| ![](https://joeljonassi.github.io/assets/images/SmartRooms/Aluno-Login.png) | ![](https://joeljonassi.github.io/assets/images/SmartRooms/Professor-Dados.png) |
 
+
+|                         |                        |
+|----------------------------------------|----------------------------------------|
+| ![](https://joeljonassi.github.io/assets/images/SmartRooms/Professor-Detalhe_Sensor.png) | ![](https://joeljonassi.github.io/assets/images/SmartRooms/Professor-Operacoes.png) |
+
+
+|                         |                        |
+|----------------------------------------|----------------------------------------|
+| ![](https://joeljonassi.github.io/assets/images/SmartRooms/Professor-Unidades_Curriculares.png) | ![](https://joeljonassi.github.io/assets/images/SmartRooms/Tecnico-Adicionar_Sensor.png) |
+
+![](https://joeljonassi.github.io/assets/images/SmartRooms/Professor-Flow.png)
 ---
 
 ## Additional Resources
